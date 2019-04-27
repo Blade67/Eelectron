@@ -9,7 +9,6 @@ It uses in addition to EJS:
 
 This project is by no means meant to be complex, on the contrary, it is meant to be as easely usable as possible, without confusing people with Webpack, Gulp or Grunt files.
 
-___
 
 ## How to use:
 
@@ -23,7 +22,6 @@ cd Eelectron
 npm install && npm start
 ```
 
-___
 
 ## Useful resources:
 
@@ -33,7 +31,6 @@ Babel [[X]](https://babeljs.io) <br>
 SASS-Pack [[X]](https://www.npmjs.com/package/sass-pack) <br>
 Nodemon [[X]](https://www.npmjs.com/package/nodemon) <br>
 
-___
 
 ## Socal media
 
