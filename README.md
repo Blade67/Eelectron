@@ -10,7 +10,7 @@ It uses in addition to EJS:
 This project is by no means meant to be complex, on the contrary, it is meant to be as easely usable as possible, without confusing people with Webpack, Gulp or Grunt files.
 
 
-## How to use:
+## How to use
 
 Nothing more simple. From your command line:
 ```
@@ -23,7 +23,7 @@ npm install && npm start
 ```
 
 
-## Useful resources:
+## Useful resources
 
 Electron [[X]](https://electronjs.org) <br>
 EJS [[X]](https://ejs.co) <br>
