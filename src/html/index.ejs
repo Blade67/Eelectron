@@ -1,0 +1,10 @@
+<%- include('partials/header'); %>
+    <% if (local) { %>
+        <% console.log(local) %>
+        <p>Eelectron version: <%= local.eelectron.version %></p>
+        <br>
+        <p>Electron version: <script>document.write(process.versions.electron)</script></p>
+        <h3><%= local.test %></h3>
+        <p><%- local.eelectron.message %></p>
+    <% } %>
+<%- include('partials/footer'); %>

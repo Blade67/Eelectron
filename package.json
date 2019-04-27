@@ -1,0 +1,25 @@
+{
+  "name": "eelectron",
+  "version": "1.0.0",
+  "description": "Electron meets EJS",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon -w src/ -e js,ejs,html,scss,sass --exec npm run makehtml",
+    "makehtml": "node ./e.js && npm run makecss",
+    "makecss": "sass-pack -o dist/css/ -s src/css/ && npm run makejs",
+    "makejs": "babel src --out-dir dist && npm run exec",
+    "exec": "electron ./dist/main.js"
+  },
+  "author": "Blade",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4",
+    "ejs": "^2.6.1",
+    "electron": "^5.0.0",
+    "nodemon": "^1.18.11",
+    "sass-pack": "^2.2.2"
+  }
+}
